@@ -1,0 +1,528 @@
+$date
+	Mon Mar 04 14:53:14 2024
+$end
+$version
+	QuestaSim Version 10.7c
+$end
+$timescale
+	1ns
+$end
+
+$scope module top $end
+$var reg 1 ! clk $end
+$var reg 1 " reset $end
+
+$scope module DUT $end
+$var wire 1 # CLK $end
+$var wire 1 $ RESET $end
+$var wire 1 % AWADDR [15] $end
+$var wire 1 & AWADDR [14] $end
+$var wire 1 ' AWADDR [13] $end
+$var wire 1 ( AWADDR [12] $end
+$var wire 1 ) AWADDR [11] $end
+$var wire 1 * AWADDR [10] $end
+$var wire 1 + AWADDR [9] $end
+$var wire 1 , AWADDR [8] $end
+$var wire 1 - AWADDR [7] $end
+$var wire 1 . AWADDR [6] $end
+$var wire 1 / AWADDR [5] $end
+$var wire 1 0 AWADDR [4] $end
+$var wire 1 1 AWADDR [3] $end
+$var wire 1 2 AWADDR [2] $end
+$var wire 1 3 AWADDR [1] $end
+$var wire 1 4 AWADDR [0] $end
+$var wire 1 5 AWLEN [7] $end
+$var wire 1 6 AWLEN [6] $end
+$var wire 1 7 AWLEN [5] $end
+$var wire 1 8 AWLEN [4] $end
+$var wire 1 9 AWLEN [3] $end
+$var wire 1 : AWLEN [2] $end
+$var wire 1 ; AWLEN [1] $end
+$var wire 1 < AWLEN [0] $end
+$var wire 1 = AWSIZE [2] $end
+$var wire 1 > AWSIZE [1] $end
+$var wire 1 ? AWSIZE [0] $end
+$var wire 1 @ AWBUSRT [1] $end
+$var wire 1 A AWBUSRT [0] $end
+$var wire 1 B AWVALID $end
+$var wire 1 C AWREADY $end
+$var wire 1 D WDATA [31] $end
+$var wire 1 E WDATA [30] $end
+$var wire 1 F WDATA [29] $end
+$var wire 1 G WDATA [28] $end
+$var wire 1 H WDATA [27] $end
+$var wire 1 I WDATA [26] $end
+$var wire 1 J WDATA [25] $end
+$var wire 1 K WDATA [24] $end
+$var wire 1 L WDATA [23] $end
+$var wire 1 M WDATA [22] $end
+$var wire 1 N WDATA [21] $end
+$var wire 1 O WDATA [20] $end
+$var wire 1 P WDATA [19] $end
+$var wire 1 Q WDATA [18] $end
+$var wire 1 R WDATA [17] $end
+$var wire 1 S WDATA [16] $end
+$var wire 1 T WDATA [15] $end
+$var wire 1 U WDATA [14] $end
+$var wire 1 V WDATA [13] $end
+$var wire 1 W WDATA [12] $end
+$var wire 1 X WDATA [11] $end
+$var wire 1 Y WDATA [10] $end
+$var wire 1 Z WDATA [9] $end
+$var wire 1 [ WDATA [8] $end
+$var wire 1 \ WDATA [7] $end
+$var wire 1 ] WDATA [6] $end
+$var wire 1 ^ WDATA [5] $end
+$var wire 1 _ WDATA [4] $end
+$var wire 1 ` WDATA [3] $end
+$var wire 1 a WDATA [2] $end
+$var wire 1 b WDATA [1] $end
+$var wire 1 c WDATA [0] $end
+$var wire 1 d WLAST $end
+$var wire 1 e WVALID $end
+$var wire 1 f WREADY $end
+$var wire 1 g BRESP [1] $end
+$var wire 1 h BRESP [0] $end
+$var wire 1 i BVALID $end
+$var wire 1 j BREADY $end
+$var wire 1 k TRANS_VALID [1] $end
+$var wire 1 l TRANS_VALID [0] $end
+$var reg 16 m out_AWADDR [15:0] $end
+$var reg 8 n out_AWLEN [7:0] $end
+$var reg 3 o out_AWSIZE [2:0] $end
+$var reg 2 p out_AWBUSRT [1:0] $end
+$var reg 1 q out_AWVALID $end
+$var reg 1 r out_AWREADY $end
+$var reg 32 s out_WDATA [31:0] $end
+$var reg 1 t out_WLAST $end
+$var reg 1 u out_WVALID $end
+$var reg 1 v out_WREADY $end
+$var reg 2 w out_BRESP [1:0] $end
+$var reg 1 x out_BVALID $end
+$var reg 1 y out_BREADY $end
+
+$scope begin assign_block $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+b0 m
+b0 n
+b0 o
+b0 p
+0q
+0r
+b0 s
+0t
+0u
+0v
+bx w
+0x
+0y
+0?
+0>
+0=
+0A
+0@
+0B
+0C
+0c
+0b
+0a
+0`
+0_
+0^
+0]
+0\
+0[
+0Z
+0Y
+0X
+0W
+0V
+0U
+0T
+0S
+0R
+0Q
+0P
+0O
+0N
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+0F
+0E
+0D
+0d
+0e
+0f
+xh
+xg
+0i
+0j
+zl
+zk
+0#
+1$
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0<
+0;
+0:
+09
+08
+07
+06
+05
+$end
+#2
+1!
+1#
+#4
+0!
+0#
+#5
+0"
+0$
+#6
+1!
+1#
+#8
+0!
+0#
+#10
+1!
+1#
+1B
+1q
+1C
+1f
+1r
+1v
+1>
+1<
+1;
+1:
+12
+11
+1-
+1*
+1)
+1(
+1&
+b101110010001100 m
+b111 n
+b10 o
+#12
+0!
+0#
+#14
+1!
+1#
+0B
+1a
+1`
+1\
+1Y
+1X
+1W
+1U
+1G
+1E
+1e
+1j
+0C
+0q
+0r
+b1010000000000000101110010001100 s
+1u
+1y
+#16
+0!
+0#
+#18
+1!
+1#
+0G
+1F
+b1100000000000000101110010001100 s
+#20
+0!
+0#
+#22
+1!
+1#
+0F
+0E
+1D
+b10000000000000000101110010001100 s
+#24
+0!
+0#
+#26
+1!
+1#
+1G
+1F
+0D
+b110000000000000101110010001100 s
+#28
+0!
+0#
+#30
+1!
+1#
+0G
+0F
+1E
+1D
+b11000000000000000101110010001100 s
+#32
+0!
+0#
+#34
+1!
+1#
+1G
+1F
+0E
+0D
+b110000000000000101110010001100 s
+#36
+0!
+0#
+#38
+1!
+1#
+0F
+1E
+b1010000000000000101110010001100 s
+#40
+0!
+0#
+#42
+1!
+1#
+1d
+1t
+#44
+0!
+0#
+#46
+1!
+1#
+0e
+0d
+0f
+0t
+0u
+0v
+#48
+0!
+0#
+#50
+1!
+1#
+1i
+0h
+0g
+b0 w
+1x
+#52
+0!
+0#
+#54
+1!
+1#
+0j
+1B
+xh
+xg
+0i
+1q
+bx w
+0x
+0y
+#56
+0!
+0#
+#58
+1!
+1#
+1C
+1f
+1r
+1v
+#59
+13
+02
+10
+0-
+1+
+0*
+0(
+1'
+1%
+b1110101000011010 m
+#60
+0!
+0#
+#62
+1!
+1#
+0B
+1b
+0a
+1_
+0\
+1Z
+0Y
+0W
+1V
+1T
+0E
+1D
+1e
+1j
+0C
+0q
+0r
+b10010000000000001110101000011010 s
+1u
+1y
+#64
+0!
+0#
+#66
+1!
+1#
+1F
+0D
+b110000000000001110101000011010 s
+#68
+0!
+0#
+#70
+1!
+1#
+1E
+1D
+b11110000000000001110101000011010 s
+#72
+0!
+0#
+#74
+1!
+1#
+0G
+0F
+0D
+b1000000000000001110101000011010 s
+#76
+0!
+0#
+#78
+1!
+1#
+1F
+0E
+1D
+b10100000000000001110101000011010 s
+#80
+0!
+0#
+#82
+1!
+1#
+0D
+b100000000000001110101000011010 s
+#84
+0!
+0#
+#86
+1!
+1#
+1G
+1D
+b10110000000000001110101000011010 s
+#88
+0!
+0#
+#90
+1!
+1#
+0F
+b10010000000000001110101000011010 s
+1d
+1t
+#92
+0!
+0#
+#94
+1!
+1#
+0e
+0d
+0f
+0t
+0u
+0v
+#96
+0!
+0#
+#98
+1!
+1#
+1i
+0h
+0g
+b0 w
+1x
+#100
+0!
+0#
+#102
+1!
+1#
+0j
+1B
+xh
+xg
+0i
+1q
+bx w
+0x
+0y
+#104
+0!
+0#
+#106
+1!
+1#
+1C
+1f
+1r
+1v
